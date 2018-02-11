@@ -1,6 +1,6 @@
 [package]
 name = "beats"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["David Phillips <david@daviddouglasphillips.com>"]
 description = "A library for dealing with Swatch Internet Time (.beats)"
 license = "MIT"
