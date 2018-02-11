@@ -4,6 +4,8 @@ version = "0.1.0"
 authors = ["David Phillips <david@daviddouglasphillips.com>"]
 description = "A library for dealing with Swatch Internet Time (.beats)"
 license = "MIT"
+repository = "https://github.com/daph/beats"
+readme = "README.md"
 
 [dependencies]
 chrono = "0.4"
