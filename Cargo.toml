@@ -2,6 +2,8 @@
 name = "beats"
 version = "0.1.0"
 authors = ["David Phillips <david@daviddouglasphillips.com>"]
+description = "A library for dealing with Swatch Internet Time (.beats)"
+license = "MIT"
 
 [dependencies]
 chrono = "0.4"
