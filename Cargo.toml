@@ -1,0 +1,6 @@
+[package]
+name = "beats"
+version = "0.1.0"
+authors = ["David Phillips <david@daviddouglasphillips.com>"]
+
+[dependencies]
