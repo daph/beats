@@ -1,12 +1,9 @@
 ![beats](https://docs.rs/beats/badge.svg) ![beats](https://img.shields.io/crates/v/beats.svg)
 
-# beats
+# {{crate}}
 
-## Beats
-
-Swatch internet time (.beats) crate for rust.
-
+{{readme}}
 
 Some additional info here
 
-License: MIT
+License: {{license}}

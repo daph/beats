@@ -1,4 +1,4 @@
-//! # Beats 0.1.0
+//! # Beats
 //!
 //! Swatch internet time (.beats) crate for rust.
 //!
