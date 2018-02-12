@@ -7,6 +7,4 @@
 Swatch internet time (.beats) crate for rust.
 
 
-Some additional info here
-
 License: MIT
