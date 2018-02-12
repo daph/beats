@@ -4,6 +4,4 @@
 
 {{readme}}
 
-Some additional info here
-
 License: {{license}}
