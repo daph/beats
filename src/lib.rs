@@ -33,7 +33,7 @@ impl Beat {
 
 impl fmt::Display for Beat {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        write!(f, "@{:.3}", self.trunc + self.fract)
+        write!(f, "@{:07.3}", self.trunc + self.fract)
     }
 }
 
@@ -117,5 +117,33 @@ mod test {
 
         assert!(beat1 < beat2);
         assert!(beat2 > beat1);
+    }
+
+    #[test]
+    fn display() {
+        let beat_nopad = Beat {
+            trunc: 123.0,
+            fract: 0.123
+        };
+
+        let beat_leftpad = Beat {
+            trunc: 23.0,
+            fract: 0.123
+        };
+
+        let beat_rightpad = Beat {
+            trunc: 123.0,
+            fract: 0.12
+        };
+
+        let beat_bothpad = Beat {
+            trunc: 23.0,
+            fract: 0.12
+        };
+
+        assert_eq!(format!("{}", beat_nopad), "@123.123");
+        assert_eq!(format!("{}", beat_leftpad), "@023.123");
+        assert_eq!(format!("{}", beat_rightpad), "@123.120");
+        assert_eq!(format!("{}", beat_bothpad), "@023.120");
     }
 }
